@@ -29,15 +29,19 @@ int ans=0;
  }
 
 int main() {
-cin>>n>>t;	
+    int q;
+cin>>n>>q;	
 st.resize(n);int a;
-memset(dp,-1,sizeof(dp));
+
 for(int i=0;i<n;i++){
     cin>>a;
     st[i]=a;
 }
-int l=rec(0,t);
-cout<<l<<endl;
+memset(dp,-1,sizeof(dp));//Time complexity hack->O(no.of states)(DP) number of times memset occur we have to this complexity becoz of recomputing and resaving the dp array
+while(q--){
+cin>>t;
+cout<<rec(0,t)<<endl;//assume this as O(1)
+}
 	return 0;
 }
 
