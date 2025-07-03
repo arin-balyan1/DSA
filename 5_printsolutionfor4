@@ -59,3 +59,21 @@ if(rec(0,t)){
 
 
 //Time complexity of dp problem-> O(no. of state)(1+avg transition cost per state)
+
+//void printall(int level,int left,vector<int>&cur){
+//      if(level==n){
+//     for(auto v:cur){
+ //     cout<<v<<" ";}
+ //     cout<<endl;
+//          return;
+//      }
+//      if(rec(level+1,left)==1){
+//          print(level+1,left);
+//      }
+//      else if(rec(level+1,left-st[level])==1){
+//          cur.push_back(st[level]);
+//          print(level+1,left-st[level]);
+//          cur.pop_back();
+//      }
+     
+//  }
