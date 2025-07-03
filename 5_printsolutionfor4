@@ -72,7 +72,7 @@ if(rec(0,t)){
 //      }
 //      else if(rec(level+1,left-st[level])==1){
 //          cur.push_back(st[level]);
-//          print(level+1,left-st[level]);
+//          printall(level+1,left-st[level]);
 //          cur.pop_back();
 //      }
      
